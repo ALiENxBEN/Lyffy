@@ -550,7 +550,7 @@ class MirrorLeechListener:
                     if self.source_url and config_dict['SOURCE_LINK']:
                         buttons.ubutton('Source link', self.source_url)
                     buttons = extra_btns(buttons)
-                    await sendMessage(self.message, msg + '<b>Links has been sent to your inbox</b>', buttons.build_menu(1))
+                    await sendMessage(self.message, msg + '<b>HEY PERVERT TAKE UR FILE THANX TO @MOVIEZPURE</b>', buttons.build_menu(1))
                 else:
                     await deleteMessage(self.botpmmsg)
             elif self.linkslogmsg:
